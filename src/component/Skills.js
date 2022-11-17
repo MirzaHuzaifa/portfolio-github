@@ -9,7 +9,7 @@ export default function Skills(){
         
         <section>
 
-        <div className="w-11/12 pt-8 mx-auto max-w-screen-2xl md:w-10/12 xl:w-8/12">
+        <div className="w-11/12 pt-8 mx-auto max-w-screen-2xl bg-[url('/]mages/mountain.jpg')] md:w-10/12 xl:w-8/12">
             <h1 className="text-[#E63946] h-[100px] font-semibold text-[30px] text-center" >Services</h1>
 
             <div className="grid justify-between grid-cols-1 gap-6 m-auto sm:grid sm:gap-10 sm:grid-cols-3">

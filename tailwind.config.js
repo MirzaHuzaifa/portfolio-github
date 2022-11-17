@@ -3,7 +3,13 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'mountain': "url('/images/mountain.jpg')",
+        'ocean': "url('/images/ocean.jpg')",
+      }
+
+    },
   },
   plugins: [],
 }
