@@ -1,0 +1,15 @@
+.wave-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(158% + 1.3px);
+    height: 123px;
+}
