@@ -24,7 +24,7 @@ function App() {
               <img src="images/zaifa.jpg" alt='just-pic' className="h-[230px] sm:w-[250px] rounded-lg w-[200px] m-auto"/>
               <div className="flex justify-betwen">
                 <div className=" px-5 max-w-[600px] lg:max-w-full">
-                    <h1 className="text-white  text-[30px]">Huzaifa Hammad
+                    <h1 className="text-white  text-[30px]">Huzaifa Hammad Waves
                     </h1>
                     <h2 className="py-1 text-red-600">Front End Web Developer</h2>
                     <p className="text-white  py-1 text-[14px]">
