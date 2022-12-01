@@ -19,7 +19,7 @@
     height: 225px;
   }
 
-  .custom-shape-divider-bottom-1669718815 {
+  .wave-bottom {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -29,7 +29,7 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1669718815 svg {
+.wave-bottom svg {
     position: relative;
     display: block;
     width: calc(158% + 1.3px);
