@@ -36,14 +36,13 @@ export default function HireMe() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
+        
           <Typography id="modal-modal-title" variant="h6" component="h2">
           Hello
           </Typography>
 
           <AboutMe />
 
-          
-          
         </Box>
       </Modal>
     </>
