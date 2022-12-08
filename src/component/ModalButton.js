@@ -1,9 +1,11 @@
 import React from "react";
 import childModal from "./childModal";
+import { Button } from '@mui/material';
+
 
     function ShowMassege()
     {
-            document.getElementById('modal').innerHTML = [<childModal/>];
+        
     }
 
 export default function ModalButton(){
