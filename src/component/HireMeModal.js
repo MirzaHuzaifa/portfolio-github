@@ -68,6 +68,10 @@ export default function NestedModal() {
     Hire Me
     </button>
 
+    <button className="text-sm sm:text-basis leading-normal py-1 px-4 transition duration-150 ease-out hover:scale-110 sm:px-10 mt-12 sm:ml-5 bg-white rounded-[50px] text-red-600">
+                    About Me
+                  </button>
+
       <Modal
         open={open}
         onClose={handleClose}
