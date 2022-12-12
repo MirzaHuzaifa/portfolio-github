@@ -1,13 +1,15 @@
 import React from "react";
 import HireMe from "./HireMe";
 import HireMeModal from "./HireMeModal"
-
+import "./SectionFirst.css";
 
     function toggleWidth() {
       if (document.getElementById("myBtn").style.width == "100%") {
+        document.getElementsByClassName('container')[0].style.display = "none";
         document.getElementById("myBtn").style.width = "40px";
       } else {
         document.getElementById("myBtn").style.width = "100%";
+        document.getElementsByClassName('container')[0].style.display = "block";
       }
     }
 
@@ -75,9 +77,14 @@ export default function SectionFirst(){
 
         <div
           id="myBtn"
-          className="z-40 h-[100vh] sm:h-[100vh] m-auto mx-auto fixed sm:fixed bg-gradient-to-t from-[#3D0F00]  to-black float-right hover:w-[100px] hover:ease-in-out"
+          className="z-40 h-[100vh] sm:h-[100vh] m-auto mx-auto overflow-x-hidden fixed sm:fixed bg-gradient-to-t from-[#3D0F00]  to-black float-right hover:w-[100px] hover:ease-in-out"
           onClick={toggleWidth}
-          style={{ transition: "width 3s", width: "100%" }}></div>
+          style={{ transition: "width 3s", width: "100%" }}>
+          <div className="container">
+          <div className="upper">WellCome Here</div>
+          <div className="lower">WellCome Here</div>
+          <div className="inside">Hope You Have A Nice Day</div>
+        </div></div>
           
       </section>
     )
