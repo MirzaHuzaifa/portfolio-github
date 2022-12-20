@@ -107,3 +107,57 @@
   }
 }
 
+.Circle{
+  width: 30%;
+  height: 300px;
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  border-radius: 50%;
+  background-color: rgba(82, 11, 11, 0.801);
+  visibility: visible;
+  animation-duration: 3s;
+  animation-timing-function: infinite;
+  /* animation-name: fadeInRight; */
+}
+
+@keyframes fadeInRight {
+    
+    0%{
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+      }
+}
+
+.pink-dot-box{
+  width: 150px;
+  height: 100px;
+  top: 300px;
+  right: 150px;
+  position: absolute;
+  border-radius: 50%;
+  /* background: rgba(250, 240, 223, 0.689); */
+}
+
+.Pink-dot{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: pink;
+  animation-duration:  10s;
+  animation-iteration-count: infinite;
+  animation-name: dot-travel;
+}
+
+@keyframes dot-travel {
+  0%   { left:0px; top:0px;}
+25%  {left:150px; top:0px;}
+50%  { left:150px; top:100px;}
+75%  { left:0px; top:100px;}
+100% {left:0px; top:0px;}
+}

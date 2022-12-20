@@ -4,13 +4,20 @@ import HireMeModal from "./HireMeModal"
 import "./SectionFirst.css";
 
     function toggleWidth() {
+      
       if (document.getElementById("myBtn").style.width == "100%") {
+        
         document.getElementsByClassName('container')[0].style.display = "none";
         document.getElementById("myBtn").style.width = "40px";
+        document.getElementById("movingCircle").style.animationName = "fadeInRight";
+        document.getElementById("movingCircle").style.display = "block";
       } else {
+        
         document.getElementById("myBtn").style.width = "100%";
         document.getElementsByClassName('container')[0].style.display = "block";
+        document.getElementById("movingCircle").style.display = "none";
       }
+      
     }
 
 export default function SectionFirst(){
@@ -74,6 +81,11 @@ export default function SectionFirst(){
             </div>
           </div>
         </div>
+        <div className="Circle" id="movingCircle"></div>
+        <div class="pink-dot-box">
+        <div class="Pink-dot"></div>
+    </div>
+        
 
         <div
           id="myBtn"
@@ -84,7 +96,9 @@ export default function SectionFirst(){
           <div className="upper">WellCome Here</div>
           <div className="lower">WellCome Here</div>
           <div className="inside">Hope You Have A Nice Day</div>
-        </div></div>
+        </div>
+        
+        </div>
           
       </section>
     )
