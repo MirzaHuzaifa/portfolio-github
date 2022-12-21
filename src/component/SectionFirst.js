@@ -25,10 +25,13 @@ export default function SectionFirst(){
     return(
 
         <section
-        className="bg-black flex h-[800px] sm:h-[100vh]"
-        style={{ backgroundImage: `linear-gradient(to top, #3D0F00,black,#3D0F00)` }}
-        >
-      
+        className="bg-black w-[1260px] m-auto flex h-[800px] sm:h-[100vh] overflow-x-hidden">
+        
+           <div className="pink-dot-box">
+            <div className="Pink-dot"></div>
+           </div>
+           
+        <div className="Circle" id="movingCircle"></div>
         
         <div className="relative w-11/12 ml-[25px] sm:mx-auto sm:m-auto max-w-screen-2xl md:w-10/12 xl:w-8/12">
           <div className="flex flex-wrap justify-center m-auto sm:flex-nowrap">
@@ -81,10 +84,8 @@ export default function SectionFirst(){
             </div>
           </div>
         </div>
-        <div className="Circle" id="movingCircle"></div>
-        <div class="pink-dot-box">
-        <div class="Pink-dot"></div>
-    </div>
+        
+        
         
 
         <div

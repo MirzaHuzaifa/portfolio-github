@@ -11,7 +11,7 @@ const skills = [
 export default function Skills(props){
 
     return(
-        <section style={{'backgroundImage':`linear-gradient(to bottom, #3D0F00,black,#3D0F00)`}}>
+        <section>
                 
         <div key={Skill.id} className="grid justify-between w-11/12 grid-cols-1 gap-6 pt-8 pb-2 m-auto mx-auto text-center align-center max-w-screen-2xl md:w-10/12 xl:w-8/12 sm:grid sm:gap-10 sm:grid-cols-3">
         {

@@ -108,10 +108,10 @@
 }
 
 .Circle{
-  width: 30%;
-  height: 300px;
+  width: 35%;
+  height: 500px;
   position: absolute;
-  right: -100px;
+  right: 80px;
   top: -100px;
   border-radius: 50%;
   background-color: rgba(82, 11, 11, 0.801);
@@ -134,10 +134,10 @@
 }
 
 .pink-dot-box{
-  width: 150px;
+  width: 250px;
   height: 100px;
   top: 300px;
-  right: 150px;
+  right: 550px;
   position: absolute;
   border-radius: 50%;
   /* background: rgba(250, 240, 223, 0.689); */
@@ -148,16 +148,16 @@
   width: 20px;
   position: absolute;
   border-radius: 50%;
-  background-color: pink;
+  background-color: rgba(94, 1, 1, 0.742);
   animation-duration:  10s;
   animation-iteration-count: infinite;
   animation-name: dot-travel;
 }
 
 @keyframes dot-travel {
-  0%   { left:0px; top:0px;}
-25%  {left:150px; top:0px;}
-50%  { left:150px; top:100px;}
-75%  { left:0px; top:100px;}
-100% {left:0px; top:0px;}
+  0%   {background-color: #f3dfe3; left:0px; top:0px;}
+25%  {background-color: #fa92a7; left:250px; top:0px;}
+50%  {background-color: #c42242; left:250px; top:100px;}
+75%  {background-color: #5d0414; left:0px; top:100px;}
+100% {background-color: #f5e9eb; left:0px; top:0px;}
 }
