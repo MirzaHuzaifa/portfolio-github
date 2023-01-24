@@ -96,7 +96,7 @@ export default function SectionFirst(){
           <div className="container">
           <div className="upper">WellCome Here</div>
           <div className="lower">WellCome Here</div>
-          <div className="inside">Hope You Have A Nice Day</div>
+          <div className="inside">CLick Anywhere</div>
         </div>
         
         </div>
