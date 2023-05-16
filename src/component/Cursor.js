@@ -9,7 +9,7 @@ import "./Cursor.css";
     return (
       <div
         className="cursor"
-        style={{ left: `${position.x}px`, top: `${position.y}px` }}
+        style={{ left: `${position.x}px`, top: `${position.y}px`, zIndex: 999, backgroundColor: "white"}}
       />
     );
   };
