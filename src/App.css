@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.App{
+  height: 100vh;
+}
 
 .wave {
     position: absolute;

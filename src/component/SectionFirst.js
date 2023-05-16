@@ -24,8 +24,7 @@ export default function SectionFirst(){
 
     return(
 
-        <section
-        className="bg-black w-[1260px] m-auto flex h-[800px] sm:h-[100vh] overflow-x-hidden">
+        <section className="bg-black w-[1260px] m-auto flex h-[800px] sm:h-[100vh] overflow-x-hidden">
         
            <div className="pink-dot-box">
             <div className="Pink-dot"></div>
